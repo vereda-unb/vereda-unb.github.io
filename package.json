@@ -1,0 +1,30 @@
+{
+  "name": "vereda-unb.github.io",
+  "version": "1.0.0",
+  "description": "Apresentação do laboratório",
+  "homepage": "https://github.com/vereda-unb/vereda-unb.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/vereda-unb/vereda-unb.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vereda-unb/vereda-unb.github.io.git"
+  },
+  "license": "CC-BY-4.0",
+  "author": "Pedro P. Palazzo",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "reveal.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "sass": "^1.104.1"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true
+  }
+}
