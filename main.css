@@ -104,3 +104,11 @@ img.r-stretch + figcaption {
   text-shadow: 0px 0px 10px var(--r-main-color);
   font-size: 0.8em;
 }
+
+.reveal .fragment.highlight-green.visible {
+  color: rgb(186, 210, 102);
+}
+
+.reveal .fragment.highlight-blue.visible {
+  color: #003366;
+}
