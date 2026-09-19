@@ -38,7 +38,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+node_modules/*
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -141,3 +141,12 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Reveal.js includes
+!node_modules/reveal.js/
+node_modules/reveal.js/*
+!/node_modules/reveal.js/dist
+node_modules/reveal.js/dist/theme/*
+!node_modules/reveal.js/dist/theme/white.css
+!/node_modules/reveal.js/plugin
+**/*.esm.js*

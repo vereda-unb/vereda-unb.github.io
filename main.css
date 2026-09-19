@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Didot LT Std';
+    src: url('fonts/DidotLTStd-Italic.eot');
+    src: url('fonts/DidotLTStd-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DidotLTStd-Italic.woff') format('woff'),
+        url('fonts/DidotLTStd-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot LT Std';
+    src: url('fonts/DidotLTStd-Roman.eot');
+    src: url('fonts/DidotLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DidotLTStd-Roman.woff') format('woff'),
+        url('fonts/DidotLTStd-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UnBPro';
+    src: url('fonts/UnBPro-Black.eot');
+    src: url('fonts/UnBPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/UnBPro-Black.woff') format('woff'),
+        url('fonts/UnBPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UnBPro';
+    src: url('fonts/UnBPro-BoldItalic.eot');
+    src: url('fonts/UnBPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/UnBPro-BoldItalic.woff') format('woff'),
+        url('fonts/UnBPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UnBPro';
+    src: url('fonts/UnBPro-Bold.eot');
+    src: url('fonts/UnBPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/UnBPro-Bold.woff') format('woff'),
+        url('fonts/UnBPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UnBPro-RegularItalic';
+    src: url('fonts/UnBPro-RegularItalic.eot');
+    src: url('fonts/UnBPro-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/UnBPro-RegularItalic.woff') format('woff'),
+        url('fonts/UnBPro-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UnBPro';
+    src: url('fonts/UnBPro-Light.eot');
+    src: url('fonts/UnBPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/UnBPro-Light.woff') format('woff'),
+        url('fonts/UnBPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UnBPro';
+    src: url('fonts/UnBPro-Regular.eot');
+    src: url('fonts/UnBPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/UnBPro-Regular.woff') format('woff'),
+        url('fonts/UnBPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:root {
+  --r-main-font: 'UnB Pro', Source Sans Pro, sans-serif;
+  --r-heading-font: 'Didot LT Std', serif;
+  --r-heading-color: #003366;
+  --r-heading-letter-spacing: -2px;
+  --r-heading-font-weight: 400;
+  --r-heading-text-transform: lowercase;
+  --r-selection-color: rgb(186, 210, 102);
+  --r-link-color: #003366;
+  --r-link-color-hover: rgb(186, 210, 102);
+}
+
+img.r-stretch + figcaption {
+  color: var(--r-background-color);
+  text-shadow: 0px 0px 10px var(--r-main-color);
+  font-size: 0.8em;
+}
