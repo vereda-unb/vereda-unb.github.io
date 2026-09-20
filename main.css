@@ -88,10 +88,9 @@
 
 
 :root {
-  --r-main-font: 'UnB Pro', Source Sans Pro, sans-serif;
+  --r-main-font: 'UnBPro', Source Sans Pro, sans-serif;
   --r-heading-font: 'Didot LT Std', serif;
   --r-heading-color: #003366;
-  --r-heading-letter-spacing: -2px;
   --r-heading-font-weight: 400;
   --r-heading-text-transform: lowercase;
   --r-selection-color: rgb(186, 210, 102);
@@ -99,10 +98,24 @@
   --r-link-color-hover: rgb(186, 210, 102);
 }
 
+cite {
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 5%;
+}
+
+figcaption {
+  font-size: 75%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 img.r-stretch + figcaption {
   color: var(--r-background-color);
   text-shadow: 0px 0px 10px var(--r-main-color);
-  font-size: 0.8em;
 }
 
 .reveal .fragment.highlight-green.visible {
@@ -111,4 +124,11 @@ img.r-stretch + figcaption {
 
 .reveal .fragment.highlight-blue.visible {
   color: #003366;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-content: space-evenly;
 }
