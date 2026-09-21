@@ -92,6 +92,7 @@
   --r-heading-font: 'Didot LT Std', serif;
   --r-heading-color: #003366;
   --r-heading-font-weight: 400;
+  --r-heading-text-shadow: 1px 1px 3px var(--r-background-color);
   --r-heading-text-transform: lowercase;
   --r-selection-color: rgb(186, 210, 102);
   --r-link-color: #003366;
@@ -116,7 +117,11 @@ img {
 
 .overlay {
   color: var(--r-background-color);
-  text-shadow: 1px 1px 3px var(--r-main-color);
+  text-shadow: 1px 1px 3px var(--r-main-color) !important;
+}
+
+.highlight {
+  color: var(--r-link-color-hover) !important;
 }
 
 .d-flex {
